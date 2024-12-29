@@ -1,0 +1,74 @@
+Dependencies for Project 'ble_flashlight', Target 'flash_s112_nrf52_7.2.0_softdevice': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
+F (src\main.c)(0x6640399F)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\main.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\main.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\main.d)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8ED772)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8ED772)
+F (config\sdk_config.h)(0x6640E351)()
+F (src\lib\Battery_level\Battery_level.c)(0x663C9FD2)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\battery_level.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\battery_level.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\battery_level.d)
+F (src\lib\app\app_ble.c)(0x663FBDE1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\app_ble.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\app_ble.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\app_ble.d)
+F (src\lib\app\handles.c)(0x66410941)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\handles.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\handles.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\handles.d)
+F (src\lib\parameters.h)(0x663FD130)()
+F (src\lib\ble_torch_s.c)(0x664103C6)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\ble_torch_s.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\ble_torch_s.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\ble_torch_s.d)
+F (src\lib\utils.h)(0x663FC26E)()
+F (src\board_config.h)(0x663EB339)()
+F (src\nRF5_SDK_17.1.0\external\utf_converter\utf.c)(0x651C8FBE)()
+F (src\nRF5_SDK_17.1.0\components\ble\common\ble_advdata.c)(0x651C8EF4)()
+F (src\nRF5_SDK_17.1.0\components\ble\common\ble_conn_params.c)(0x651C8EF4)()
+F (src\nRF5_SDK_17.1.0\components\ble\common\ble_conn_state.c)(0x651C8EF4)()
+F (src\nRF5_SDK_17.1.0\components\ble\common\ble_srv_common.c)(0x651C8EF4)()
+F (src\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt\nrf_ble_gatt.c)(0x651C8EF4)()
+F (src\nRF5_SDK_17.1.0\components\ble\nrf_ble_qwr\nrf_ble_qwr.c)(0x651C8EF4)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_adc.c)(0x651C8FC1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_adc.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_adc.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_adc.d)
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_saadc.c)(0x651C8FC1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_saadc.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_saadc.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_saadc.d)
+F (src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_clock.c)(0x651C8FBE)()
+F (src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_uart.c)(0x651C8FBF)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\soc\nrfx_atomic.c)(0x651C8FC8)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_clock.c)(0x651C8FC1)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_gpiote.c)(0x651C8FC1)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\prs\nrfx_prs.c)(0x651C8FC2)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_uart.c)(0x651C8FC2)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_uarte.c)(0x651C8FC2)()
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_twi.c)(0x651C8FC1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_twi.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_twi.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_twi.d)
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_twim.c)(0x651C8FC2)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_twim.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_twim.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_twim.d)
+F (src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_twi.c)(0x651C8FBF)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrf_drv_twi.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrf_drv_twi.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrf_drv_twi.d)
+F (src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_ppi.c)(0x651C8FBF)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrf_drv_ppi.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrf_drv_ppi.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrf_drv_ppi.d)
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_ppi.c)(0x651C8FC1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_ppi.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_ppi.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_ppi.d)
+F (src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_timer.c)(0x651C8FC1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_timer.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_timer.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\nrfx_timer.d)
+F (src\nRF5_SDK_17.1.0\components\libraries\util\app_error.c)(0x651C8F01)()
+F (src\nRF5_SDK_17.1.0\components\libraries\util\app_error_handler_keil.c)(0x651C8F01)()
+F (src\nRF5_SDK_17.1.0\components\libraries\util\app_error_weak.c)(0x651C8F01)()
+F (src\nRF5_SDK_17.1.0\components\libraries\scheduler\app_scheduler.c)(0x651C8EFF)()
+F (src\nRF5_SDK_17.1.0\components\libraries\timer\app_timer2.c)(0x651C8F00)()
+F (src\nRF5_SDK_17.1.0\components\libraries\util\app_util_platform.c)(0x651C8F01)()
+F (src\nRF5_SDK_17.1.0\components\libraries\timer\drv_rtc.c)(0x651C8F00)()
+F (src\nRF5_SDK_17.1.0\components\libraries\hardfault\hardfault_implementation.c)(0x651C8EFD)()
+F (src\nRF5_SDK_17.1.0\components\libraries\util\nrf_assert.c)(0x651C8F01)()
+F (src\nRF5_SDK_17.1.0\components\libraries\atomic_fifo\nrf_atfifo.c)(0x651C8EF7)()
+F (src\nRF5_SDK_17.1.0\components\libraries\atomic_flags\nrf_atflags.c)(0x651C8EF7)()
+F (src\nRF5_SDK_17.1.0\components\libraries\atomic\nrf_atomic.c)(0x651C8EF7)()
+F (src\nRF5_SDK_17.1.0\components\libraries\balloc\nrf_balloc.c)(0x651C8EF7)()
+F (src\nRF5_SDK_17.1.0\external\fprintf\nrf_fprintf.c)(0x651C8FA0)()
+F (src\nRF5_SDK_17.1.0\external\fprintf\nrf_fprintf_format.c)(0x651C8FA0)()
+F (src\nRF5_SDK_17.1.0\components\libraries\memobj\nrf_memobj.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c)(0x651C8EFF)()
+F (src\nRF5_SDK_17.1.0\components\libraries\ringbuf\nrf_ringbuf.c)(0x651C8EFF)()
+F (src\nRF5_SDK_17.1.0\components\libraries\experimental_section_vars\nrf_section_iter.c)(0x651C8EFD)()
+F (src\nRF5_SDK_17.1.0\components\libraries\sortlist\nrf_sortlist.c)(0x651C8EFF)()
+F (src\nRF5_SDK_17.1.0\components\libraries\strerror\nrf_strerror.c)(0x651C8EFF)()
+F (src\nRF5_SDK_17.1.0\components\libraries\pwm\app_pwm.c)(0x651C8EFF)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s112_nrf52_7.2.0_softdevice-IC:\Users\gabri\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52805_XXAA -D_RTE_ -D__HEAP_SIZE="2048" -D__STACK_SIZE="2048"-o src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\app_pwm.o --omf_browse src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\app_pwm.crf --depend src\nrf5_sdk_17.1.0\components\softdevice\s112\hex\app_pwm.d)
+F (src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_rtt.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_serial.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_uart.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_default_backends.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_frontend.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_str_formatter.c)(0x651C8EFE)()
+F (src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT.c)(0x651C8FBD)()
+F (src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_Syscalls_KEIL.c)(0x651C8FBD)()
+F (src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_printf.c)(0x651C8FBD)()
+F (src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh.c)(0x651C8F0B)()
+F (src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh_ble.c)(0x651C8F0B)()
+F (src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh_soc.c)(0x651C8F0B)()
+F (RTE/Device/nRF52805_xxAA/arm_startup_nrf52805.s)(0x609EC22A)()
+F (RTE/Device/nRF52805_xxAA/system_nrf52.c)(0x609EC22A)()
+F (RTE/Device/nRF52810_xxAA/arm_startup_nrf52810.s)(0x6197C690)()
+F (RTE/Device/nRF52810_xxAA/system_nrf52.c)(0x6197C690)()
