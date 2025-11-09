@@ -222,8 +222,8 @@
 <text x="13.58" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">3V3</text>
 <text x="16.19" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">LDR</text>
 <text x="11.11" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">3V3</text>
-<text x="31.43" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">FULL</text>
-<text x="8.57" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">TEST</text>
+<text x="8.57" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">FULL</text>
+<text x="31.43" y="37" size="0.6096" layer="48" font="vector" ratio="15" rot="R180" align="bottom-center">TEST</text>
 <wire x1="6.985" y1="40.64" x2="6.985" y2="39.624" width="0.1524" layer="41"/>
 <wire x1="6.985" y1="39.624" x2="32.893" y2="39.624" width="0.1524" layer="41"/>
 <wire x1="32.893" y1="39.624" x2="32.893" y2="40.64" width="0.1524" layer="41"/>
